@@ -1,0 +1,5 @@
+Set-ItemProperty HKLM:SOFTWARE\\Microsoft\\"Microsoft SQL Server"\\MSSQL15.MSSQLSERVER\\MSSQLServer\\SuperSocketNetLib\\Tcp\\IPAll -Name TcpPort -Value "1433,1434,2019"  ## This is for SQL Server 2019
+Set-ItemProperty HKLM:SOFTWARE\\Microsoft\\"Microsoft SQL Server"\\MSSQL16.MSSQLSERVER\\MSSQLServer\\SuperSocketNetLib\\Tcp\\IPAll -Name TcpPort -Value "1433,1434,2022"  ## This is for SQL Server 2022
+Set-ItemProperty HKLM:SOFTWARE\\Microsoft\\"Microsoft SQL Server"\\MSSQL14.MSSQLSERVER\\MSSQLServer\\SuperSocketNetLib\\Tcp\\IPAll -Name TcpPort -Value "1433,1434,2017"  ## This is for SQL Server 2017
+Set-ItemProperty HKLM:SOFTWARE\\Microsoft\\"Microsoft SQL Server"\\MSSQL13.MSSQLSERVER\\MSSQLServer\\SuperSocketNetLib\\Tcp\\IPAll -Name TcpPort -Value "1433,1434,2016"  ## This is for SQL Server 2016
+Set-ItemProperty HKLM:SOFTWARE\\Microsoft\\"Microsoft SQL Server"\\MSSQL12.MSSQLSERVER\\MSSQLServer\\SuperSocketNetLib\\Tcp\\IPAll -Name TcpPort -Value "1433,1434,2014"  ## This is for SQL Server 2014
