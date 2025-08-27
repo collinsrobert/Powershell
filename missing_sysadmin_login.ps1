@@ -1,6 +1,7 @@
+#########################################-----Default instance
 $servername="MSSQLSERVER"
 $in="."
-$login="UBOC-AD\SQLDBA"
+$login="AD\DBA"
 
 net stop $servername /Y
 net start $servername /f /mSQLCMD
@@ -17,7 +18,7 @@ net start $servername
 
 $servername="MSSQL`$COMMVAULT"
 $in=".\COMMVAULT"
-$login="ADPROD\DBA"
+$login="AD\DBA"
 
 net stop $servername /Y
 net start $servername /f /mSQLCMD
